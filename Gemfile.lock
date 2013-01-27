@@ -1,0 +1,18 @@
+PATH
+  remote: .
+  specs:
+    pbxproject (0.2.5)
+      thor
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    thor (0.17.0)
+    version (1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pbxproject!
+  version
