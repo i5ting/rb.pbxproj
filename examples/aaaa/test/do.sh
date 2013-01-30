@@ -1,6 +1,10 @@
 rm bin/hello.o
+ar crv 
+
 
 ar -crv libmyhello.a /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/Test.o
+
+
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 hello.m libmyhello.a -o hello && ./hello
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 hello.m libmyhello.a -o hello && ./hello
@@ -44,6 +48,16 @@ gcc  -framework Foundation   -arch i386 -isysroot=/Applications/Xcode.app/Conten
 gcc  -framework Foundation  -arch i386 -isysroot=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk h1.m libmyhello.a -o hello && ./hello
 gcc  -lobjc  -arch i386 -isysroot=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk h1.m libmyhello.a -o hello && ./hello
 
+
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin
+
+gcc  -lobjc  -arch i386 -isysroot=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk h1.m  -static -L. -lmyhello -o hello && ./hello
+
+-isysroot=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk 
+
+gcc  -lobjc  -arch i386 h1.m  -static -L. -lmyhello -o hello && ./hello   
+
+
 Foundation/Foundation.h: No such file or directory
 
 
@@ -51,3 +65,20 @@ Foundation/Foundation.h: No such file or directory
 
 chmod +x bin/hello.o 
 ./bin/hello.o
+
+
+
+
+
+gcc  -framework Foundation  -arch i386 h1.m   -o hello -isysroot=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+gcc  -framework Foundation  -arch i386 h1.m   -o hello --sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+gcc  -framework Foundation  -arch i386 h1.m   -o hello -sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+ && ./hello 
+
+
+
+gcc  -framework Foundation  -arch i386 hello.m   -o hello --sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+
+ gcc   -framework Foundation  -arch i386 hello.m  -static -L. -lmyhello -o hello && ./hello
+ 
+ 
