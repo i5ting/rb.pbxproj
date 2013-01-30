@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/dudan/work/git/rb.pbxproj/examples/aaaa/Helloworld/main.m \
-  /Users/dudan/work/git/rb.pbxproj/examples/aaaa/Helloworld/AppDelegate.h
+  /Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/main.m \
+  /Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/AppDelegate.h

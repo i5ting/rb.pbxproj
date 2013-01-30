@@ -2,62 +2,63 @@ THelloworld
 v5
 r1
 cCheck dependencies
-cProcessInfoPlistFile /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Info.plist Helloworld/Helloworld-Info.plist
-cProcessPCH /var/folders/7w/5c9chkjs4p3dsfrjh_v3s4200000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Helloworld-Prefix-byhudnxybgphklatkktpboauvgio/Helloworld-Prefix.pch.pth Helloworld/Helloworld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/main.o /Users/dudan/work/git/rb.pbxproj/examples/aaaa/Helloworld/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/AppDelegate.o /Users/dudan/work/git/rb.pbxproj/examples/aaaa/Helloworld/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Helloworld normal i386
-cGenerateDSYMFile /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app.dSYM /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Helloworld
-cCopyStringsFile /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/en.lproj/InfoPlist.strings Helloworld/en.lproj/InfoPlist.strings
+cProcessInfoPlistFile /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Info.plist Helloworld/Helloworld-Info.plist
+cProcessPCH /var/folders/nb/8x3xwk8101bftl1lj1ht25080000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Helloworld-Prefix-ggszqngmjneywjhcubovcvmsszdk/Helloworld-Prefix.pch.pth Helloworld/Helloworld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/main.o /Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/AppDelegate.o /Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/Test.o /Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/Test.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Helloworld normal i386
+cGenerateDSYMFile /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app.dSYM /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Helloworld
+cCopyStringsFile /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/en.lproj/InfoPlist.strings Helloworld/en.lproj/InfoPlist.strings
 cCpResource Helloworld/Default.png build/Debug-iphonesimulator/Helloworld.app/Default.png
 cCpResource Helloworld/Default@2x.png build/Debug-iphonesimulator/Helloworld.app/Default@2x.png
 cCpResource Helloworld/Default-568h@2x.png build/Debug-iphonesimulator/Helloworld.app/Default-568h@2x.png
-cTouch /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app
+cTouch /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
-c0000000050DA9D800000000000000110
-t1356504448
+c00000000504916AD0000000000000110
+t1346967213
 s272
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000005080EB540000000000228FD0
-t1350626132
+c0000000050901F900000000000228FD0
+t1351622544
 s2265040
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000005080EB5600000000003DCEF0
-t1350626134
+c0000000050901F9D00000000003DCEF0
+t1351622557
 s4050672
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000005080EB5600000000000015F7
-t1350626134
+c0000000050901F9D00000000000015F7
+t1351622557
 s5623
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000005080EB5A0000000000000E8D
-t1350626138
+c0000000050901FCA0000000000000E8D
+t1351622602
 s3725
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000005080EB5C0000000000AB3D60
-t1350626140
+c0000000050901FCF0000000000AB3D60
+t1351622607
 s11222368
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/Availability.h
-c000000005080EB6C0000000000001B54
-t1350626156
+c00000000509020630000000000001B54
+t1351622755
 s6996
 
 N/Users/dudan/work/git/rb.pbxproj/examples/aaaa/Helloworld/AppDelegate.h
-c00000000510732B50000000000000111
-t1359426229
-s273
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/dudan/work/git/rb.pbxproj/examples/aaaa/Helloworld/AppDelegate.m
-c00000000510732B500000000000008CB
-t1359426229
-s2251
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/dudan/work/git/rb.pbxproj/examples/aaaa/Helloworld/Default-568h@2x.png
 c000000005062328600000000000048A2
@@ -88,9 +89,9 @@ t1359426228
 s45
 
 N/Users/dudan/work/git/rb.pbxproj/examples/aaaa/Helloworld/main.m
-c0000000051073BFE0000000000000223
-t1359428606
-s547
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app
 t1359451157
@@ -141,18 +142,118 @@ N/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iph
 t1359451155
 s3192
 
+N/Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/AppDelegate.m
+c000000005107C6DE00000000000008CB
+t1359464158
+s2251
+
+N/Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/Default-568h@2x.png
+c000000005107C6DE00000000000048A2
+t1359464158
+s18594
+
+N/Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/Default.png
+c000000005107C6DE000000000000198C
+t1359464158
+s6540
+
+N/Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/Default@2x.png
+c000000005107C6DE0000000000003EEB
+t1359464158
+s16107
+
+N/Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/Helloworld-Prefix.pch
+c000000005107C6DE0000000000000143
+t1359464158
+s323
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/Test.m
+c000000005107C6DE00000000000000E3
+t1359464158
+s227
+
+N/Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/en.lproj/InfoPlist.strings
+c000000005107C6DE000000000000002D
+t1359464158
+s45
+
+N/Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/main.m
+c000000005107C6DE0000000000000223
+t1359464158
+s547
+
+N/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app
+t1359464158
+s306
+
+N/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app.dSYM
+t1359464158
+s102
+
+N/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Default-568h@2x.png
+t1359464158
+s18594
+
+N/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Default.png
+t1359464158
+s6540
+
+N/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Default@2x.png
+t1359464158
+s16107
+
+N/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Helloworld
+t1359464158
+s16584
+
+N/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Info.plist
+t1359464158
+s801
+
+N/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/PkgInfo
+t1359464158
+s8
+
+N/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/en.lproj/InfoPlist.strings
+t1359464158
+s42
+
+N/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/AppDelegate.o
+t1359464158
+s87652
+
+N/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/Helloworld.LinkFileList
+c000000005107CDF400000000000001B4
+t1359465972
+s436
+
+N/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/Test.o
+t2
+s0
+
+N/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/main.o
+t1359464158
+s3192
+
 N/var/folders/7w/5c9chkjs4p3dsfrjh_v3s4200000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Helloworld-Prefix-byhudnxybgphklatkktpboauvgio/Helloworld-Prefix.pch.pth
 t1359451155
 s4830084
 
+N/var/folders/nb/8x3xwk8101bftl1lj1ht25080000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Helloworld-Prefix-ggszqngmjneywjhcubovcvmsszdk/Helloworld-Prefix.pch.pth
+t2
+s0
+
 NHelloworld/Helloworld-Info.plist
-c00000000510792290000000000000476
-t1359450665
+c000000005107C6DE0000000000000476
+t1359464158
 s1142
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2c2c70a2cbb7b641^b70c94a2cbb7b641^---0#1#0#--18"Check dependencies36"53126975-C943-4A76-A91C-B2EF1076A221-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies22712f7105b8b641^ec69777405b8b641^---0#1#0#--18"Check dependencies36"9DC4A939-BCAC-4974-B3B9-AAB063236634-
 
 CCompileC build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/AppDelegate.o /Users/dudan/work/git/rb.pbxproj/examples/aaaa/Helloworld/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s381143955.833253
@@ -167,6 +268,32 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/dudan/work/git/rb.pbxproj/examples/aaaa/Helloworld/AppDelegate.me57cd593cbb7b641^431aed93cbb7b641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/dudan/work/git/rb.pbxproj/examples/aaaa/Helloworld/AppDelegate.m0000000000000000^4211"CompileC build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/AppDelegate.o Helloworld/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dudan/work/git/rb.pbxproj/examples/aaaa    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/dudan/.rbenv/shims:/usr/local/lib/node_modules/coffee-script/bin:/usr/local/bin:/Users/dudan/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin:/usr/local/git/bin:/Users/dudan/Documents/ImageMagick6.8.0/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin:/usr/local/mongodb221/bin:/usr/local/mongodb221/:/Users/dudan/alfred/apache-ant-1.8.4/bin:/Developer/Platforms/iPhoneOS.platform/Developer/Library/PrivateFrameworks/DTDeviceKit.framework/Versions/A/Resources/:/usr/local/narwhal/bin:/Users/dudan/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-generated-files.hmap -I/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-own-target-headers.hmap -I/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-all-target-headers.hmap -iquote /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-project-headers.hmap -I/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/DerivedSources/i386 -I/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/DerivedSources -F/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator -include /var/folders/7w/5c9chkjs4p3dsfrjh_v3s4200000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Helloworld-Prefix-byhudnxybgphklatkktpboauvgio/Helloworld-Prefix.pch -MMD -MT dependencies -MF /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/AppDelegate.dia -c /Users/dudan/work/git/rb.pbxproj/examples/aaaa/Helloworld/AppDelegate.m -o /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/AppDelegate.o36"5950E9BB-E200-4D4B-8749-65FC1056C65E-
 
+CCompileC build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/AppDelegate.o /Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381158785.127034
+e381158786.175041
+r1
+xCompileC
+xbuild/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/AppDelegate.o
+x/Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/AppDelegate.mb6be208105b8b641^2fdd2c8205b8b641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/AppDelegate.m0000000000000000^3979"CompileC build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/AppDelegate.o Helloworld/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sang/Downloads/pbxproject-master/examples/aaaa    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sang/.rvm/gems/ruby-1.9.3-p327/bin:/Users/sang/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/sang/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/sang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-generated-files.hmap -I/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-own-target-headers.hmap -I/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-all-target-headers.hmap -iquote /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-project-headers.hmap -I/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/DerivedSources/i386 -I/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/DerivedSources -F/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator -include /var/folders/nb/8x3xwk8101bftl1lj1ht25080000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Helloworld-Prefix-ggszqngmjneywjhcubovcvmsszdk/Helloworld-Prefix.pch -MMD -MT dependencies -MF /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/AppDelegate.dia -c /Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/AppDelegate.m -o /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/AppDelegate.o36"3A7175A0-830A-4DEE-85B1-FD6209A33F45-
+
+CCompileC build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/Test.o /Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/Test.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381158786.128967
+e381158786.277330
+r1
+xCompileC
+xbuild/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/Test.o
+x/Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/Test.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/Test.m7e37218205b8b641^d6fe468205b8b641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/Test.m0000000000000000^3937"CompileC build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/Test.o Helloworld/Test.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sang/Downloads/pbxproject-master/examples/aaaa    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sang/.rvm/gems/ruby-1.9.3-p327/bin:/Users/sang/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/sang/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/sang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-generated-files.hmap -I/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-own-target-headers.hmap -I/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-all-target-headers.hmap -iquote /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-project-headers.hmap -I/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/DerivedSources/i386 -I/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/DerivedSources -F/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator -include /var/folders/nb/8x3xwk8101bftl1lj1ht25080000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Helloworld-Prefix-ggszqngmjneywjhcubovcvmsszdk/Helloworld-Prefix.pch -MMD -MT dependencies -MF /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/Test.d --serialize-diagnostics /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/Test.dia -c /Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/Test.m -o /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/Test.o36"31790E73-7652-4126-99B1-99337C6D2319-
+
 CCompileC build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/main.o /Users/dudan/work/git/rb.pbxproj/examples/aaaa/Helloworld/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s381143955.833251
 e381143955.875613
@@ -180,6 +307,19 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/dudan/work/git/rb.pbxproj/examples/aaaa/Helloworld/main.m917cd593cbb7b641^a627e093cbb7b641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/dudan/work/git/rb.pbxproj/examples/aaaa/Helloworld/main.m0000000000000000^4169"CompileC build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/main.o Helloworld/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dudan/work/git/rb.pbxproj/examples/aaaa    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/dudan/.rbenv/shims:/usr/local/lib/node_modules/coffee-script/bin:/usr/local/bin:/Users/dudan/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin:/usr/local/git/bin:/Users/dudan/Documents/ImageMagick6.8.0/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin:/usr/local/mongodb221/bin:/usr/local/mongodb221/:/Users/dudan/alfred/apache-ant-1.8.4/bin:/Developer/Platforms/iPhoneOS.platform/Developer/Library/PrivateFrameworks/DTDeviceKit.framework/Versions/A/Resources/:/usr/local/narwhal/bin:/Users/dudan/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-generated-files.hmap -I/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-own-target-headers.hmap -I/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-all-target-headers.hmap -iquote /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-project-headers.hmap -I/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/DerivedSources/i386 -I/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/DerivedSources -F/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator -include /var/folders/7w/5c9chkjs4p3dsfrjh_v3s4200000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Helloworld-Prefix-byhudnxybgphklatkktpboauvgio/Helloworld-Prefix.pch -MMD -MT dependencies -MF /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/main.dia -c /Users/dudan/work/git/rb.pbxproj/examples/aaaa/Helloworld/main.m -o /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/main.o36"1B68F086-9029-4F91-9BDD-168FE55EE682-
 
+CCompileC build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/main.o /Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381158785.125923
+e381158786.121072
+r1
+xCompileC
+xbuild/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/main.o
+x/Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/main.m8674208105b8b641^54371f8205b8b641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/main.m0000000000000000^3937"CompileC build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/main.o Helloworld/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sang/Downloads/pbxproject-master/examples/aaaa    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sang/.rvm/gems/ruby-1.9.3-p327/bin:/Users/sang/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/sang/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/sang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-generated-files.hmap -I/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-own-target-headers.hmap -I/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-all-target-headers.hmap -iquote /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-project-headers.hmap -I/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/DerivedSources/i386 -I/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/DerivedSources -F/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator -include /var/folders/nb/8x3xwk8101bftl1lj1ht25080000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Helloworld-Prefix-ggszqngmjneywjhcubovcvmsszdk/Helloworld-Prefix.pch -MMD -MT dependencies -MF /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/main.dia -c /Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/main.m -o /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/main.o36"EEF3A17D-69EE-46C3-A160-99F88B9621CD-
+
 CCopyStringsFile /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/en.lproj/InfoPlist.strings Helloworld/en.lproj/InfoPlist.strings
 s381143957.311030
 e381143957.386870
@@ -188,6 +328,9 @@ xCopyStringsFile
 x/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/en.lproj/InfoPlist.strings
 xHelloworld/en.lproj/InfoPlist.strings
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy Helloworld/en.lproj/InfoPlist.strings8dd04f95cbb7b641^b30a6395cbb7b641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/dudan/work/git/rb.pbxproj/examples/aaaa/Helloworld/en.lproj/InfoPlist.strings0000000000000000^1116"CopyStringsFile build/Debug-iphonesimulator/Helloworld.app/en.lproj/InfoPlist.strings Helloworld/en.lproj/InfoPlist.strings    cd /Users/dudan/work/git/rb.pbxproj/examples/aaaa    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/dudan/.rbenv/shims:/usr/local/lib/node_modules/coffee-script/bin:/usr/local/bin:/Users/dudan/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin:/usr/local/git/bin:/Users/dudan/Documents/ImageMagick6.8.0/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin:/usr/local/mongodb221/bin:/usr/local/mongodb221/:/Users/dudan/alfred/apache-ant-1.8.4/bin:/Developer/Platforms/iPhoneOS.platform/Developer/Library/PrivateFrameworks/DTDeviceKit.framework/Versions/A/Resources/:/usr/local/narwhal/bin:/Users/dudan/.rvm/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/en.lproj -- Helloworld/en.lproj/InfoPlist.strings36"84C80B36-D3BC-44FF-AECD-F5E9FCC4A103-
+
+CCopyStringsFile /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/en.lproj/InfoPlist.strings Helloworld/en.lproj/InfoPlist.strings
+r0
 
 CCpResource Helloworld/Default-568h@2x.png build/Debug-iphonesimulator/Helloworld.app/Default-568h@2x.png
 s381143957.311926
@@ -225,6 +368,15 @@ x/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Hell
 x/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Helloworld
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Generating /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app.dSYMeca22c95cbb7b641^af5e4d95cbb7b641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app.dSYM000000000080d041^1180"GenerateDSYMFile build/Debug-iphonesimulator/Helloworld.app.dSYM build/Debug-iphonesimulator/Helloworld.app/Helloworld    cd /Users/dudan/work/git/rb.pbxproj/examples/aaaa    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/dudan/.rbenv/shims:/usr/local/lib/node_modules/coffee-script/bin:/usr/local/bin:/Users/dudan/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin:/usr/local/git/bin:/Users/dudan/Documents/ImageMagick6.8.0/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin:/usr/local/mongodb221/bin:/usr/local/mongodb221/:/Users/dudan/alfred/apache-ant-1.8.4/bin:/Developer/Platforms/iPhoneOS.platform/Developer/Library/PrivateFrameworks/DTDeviceKit.framework/Versions/A/Resources/:/usr/local/narwhal/bin:/Users/dudan/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Helloworld -o /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app.dSYM36"E0A46289-D48C-471B-A248-965E09DE9B9E-
 
+CGenerateDSYMFile /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app.dSYM /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Helloworld
+s381158791.355288
+e381158791.458863
+r1
+xGenerateDSYMFile
+x/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app.dSYM
+x/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Helloworld
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Generating /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app.dSYMc4255b8705b8b641^06a0758705b8b641^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app.dSYM/0000000000000000^878"GenerateDSYMFile build/Debug-iphonesimulator/Helloworld.app.dSYM build/Debug-iphonesimulator/Helloworld.app/Helloworld    cd /Users/sang/Downloads/pbxproject-master/examples/aaaa    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sang/.rvm/gems/ruby-1.9.3-p327/bin:/Users/sang/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/sang/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/sang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Helloworld -o /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app.dSYM36"F9FB247D-3F79-4F61-82E8-CC8BE318BC78-
+
 CLd /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Helloworld normal i386
 s381143955.936027
 e381143957.166103
@@ -235,6 +387,16 @@ xnormal
 xi386
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Link /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Helloworld3e93f193cbb7b641^83862a95cbb7b641^---0#0#0#--1710"Ld build/Debug-iphonesimulator/Helloworld.app/Helloworld normal i386    cd /Users/dudan/work/git/rb.pbxproj/examples/aaaa    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/dudan/.rbenv/shims:/usr/local/lib/node_modules/coffee-script/bin:/usr/local/bin:/Users/dudan/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin:/usr/local/git/bin:/Users/dudan/Documents/ImageMagick6.8.0/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin:/usr/local/mongodb221/bin:/usr/local/mongodb221/:/Users/dudan/alfred/apache-ant-1.8.4/bin:/Developer/Platforms/iPhoneOS.platform/Developer/Library/PrivateFrameworks/DTDeviceKit.framework/Versions/A/Resources/:/usr/local/narwhal/bin:/Users/dudan/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator -F/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator -filelist /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/Helloworld.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Helloworld36"C707B852-5471-4AA2-B7E9-D5DF33E40C12-
 
+CLd /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Helloworld normal i386
+s381158786.284577
+e381158791.348531
+r1
+xLd
+x/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Helloworld
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Link /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Helloworld7e18498205b8b641^5249598705b8b641^---0#0#0#--1422"Ld build/Debug-iphonesimulator/Helloworld.app/Helloworld normal i386    cd /Users/sang/Downloads/pbxproject-master/examples/aaaa    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sang/.rvm/gems/ruby-1.9.3-p327/bin:/Users/sang/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/sang/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/sang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator -F/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator -filelist /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Objects-normal/i386/Helloworld.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Helloworld36"AA7B92E1-C035-438F-B4D2-82B441FDDBE0-
+
 CProcessInfoPlistFile /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Info.plist Helloworld/Helloworld-Info.plist
 s381143954.277806
 e381143954.295724
@@ -243,6 +405,9 @@ xProcessInfoPlistFile
 x/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Info.plist
 xHelloworld/Helloworld-Info.plist
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process Helloworld/Helloworld-Info.plist0e4b4792cbb7b641^70b44b92cbb7b641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/dudan/work/git/rb.pbxproj/examples/aaaa/Helloworld/Helloworld-Info.plist0000000000000000^1208"ProcessInfoPlistFile build/Debug-iphonesimulator/Helloworld.app/Info.plist Helloworld/Helloworld-Info.plist    cd /Users/dudan/work/git/rb.pbxproj/examples/aaaa    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/dudan/.rbenv/shims:/usr/local/lib/node_modules/coffee-script/bin:/usr/local/bin:/Users/dudan/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin:/usr/local/git/bin:/Users/dudan/Documents/ImageMagick6.8.0/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin:/usr/local/mongodb221/bin:/usr/local/mongodb221/:/Users/dudan/alfred/apache-ant-1.8.4/bin:/Developer/Platforms/iPhoneOS.platform/Developer/Library/PrivateFrameworks/DTDeviceKit.framework/Versions/A/Resources/:/usr/local/narwhal/bin:/Users/dudan/.rvm/bin"    builtin-infoPlistUtility Helloworld/Helloworld-Info.plist -genpkginfo /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Info.plist36"53DCCA77-F00D-413A-A480-BD0908EAFEDC-
+
+CProcessInfoPlistFile /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app/Info.plist Helloworld/Helloworld-Info.plist
+r0
 
 CProcessPCH /var/folders/7w/5c9chkjs4p3dsfrjh_v3s4200000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Helloworld-Prefix-byhudnxybgphklatkktpboauvgio/Helloworld-Prefix.pch.pth Helloworld/Helloworld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s381143954.305637
@@ -257,6 +422,19 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile Helloworld/Helloworld-Prefix.pch5b974e92cbb7b641^0f62d393cbb7b641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/dudan/work/git/rb.pbxproj/examples/aaaa/Helloworld/Helloworld-Prefix.pch0000000000000000^4203"ProcessPCH /var/folders/7w/5c9chkjs4p3dsfrjh_v3s4200000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Helloworld-Prefix-byhudnxybgphklatkktpboauvgio/Helloworld-Prefix.pch.pth Helloworld/Helloworld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dudan/work/git/rb.pbxproj/examples/aaaa    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/dudan/.rbenv/shims:/usr/local/lib/node_modules/coffee-script/bin:/usr/local/bin:/Users/dudan/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin:/usr/local/git/bin:/Users/dudan/Documents/ImageMagick6.8.0/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin:/usr/local/mongodb221/bin:/usr/local/mongodb221/:/Users/dudan/alfred/apache-ant-1.8.4/bin:/Developer/Platforms/iPhoneOS.platform/Developer/Library/PrivateFrameworks/DTDeviceKit.framework/Versions/A/Resources/:/usr/local/narwhal/bin:/Users/dudan/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-generated-files.hmap -I/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-own-target-headers.hmap -I/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-all-target-headers.hmap -iquote /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-project-headers.hmap -I/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/DerivedSources/i386 -I/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/DerivedSources -F/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/7w/5c9chkjs4p3dsfrjh_v3s4200000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Helloworld-Prefix-byhudnxybgphklatkktpboauvgio/Helloworld-Prefix.pch.dia -c /Users/dudan/work/git/rb.pbxproj/examples/aaaa/Helloworld/Helloworld-Prefix.pch -o /var/folders/7w/5c9chkjs4p3dsfrjh_v3s4200000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Helloworld-Prefix-byhudnxybgphklatkktpboauvgio/Helloworld-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/7w/5c9chkjs4p3dsfrjh_v3s4200000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Helloworld-Prefix-byhudnxybgphklatkktpboauvgio/Helloworld-Prefix.pch.d36"B5408F6B-A560-45B1-BFEB-213984FBAD46-
 
+CProcessPCH /var/folders/nb/8x3xwk8101bftl1lj1ht25080000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Helloworld-Prefix-ggszqngmjneywjhcubovcvmsszdk/Helloworld-Prefix.pch.pth Helloworld/Helloworld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381158772.555190
+e381158785.115525
+r1
+xProcessPCH
+x/var/folders/nb/8x3xwk8101bftl1lj1ht25080000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Helloworld-Prefix-ggszqngmjneywjhcubovcvmsszdk/Helloworld-Prefix.pch.pth
+xHelloworld/Helloworld-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile Helloworld/Helloworld-Prefix.pch166d8e7405b8b641^7b141e8105b8b641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/Helloworld-Prefix.pch0000000000000000^3950"ProcessPCH /var/folders/nb/8x3xwk8101bftl1lj1ht25080000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Helloworld-Prefix-ggszqngmjneywjhcubovcvmsszdk/Helloworld-Prefix.pch.pth Helloworld/Helloworld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sang/Downloads/pbxproject-master/examples/aaaa    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sang/.rvm/gems/ruby-1.9.3-p327/bin:/Users/sang/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/sang/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/sang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-generated-files.hmap -I/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-own-target-headers.hmap -I/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-all-target-headers.hmap -iquote /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/Helloworld-project-headers.hmap -I/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/DerivedSources/i386 -I/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Helloworld.build/Debug-iphonesimulator/Helloworld.build/DerivedSources -F/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/nb/8x3xwk8101bftl1lj1ht25080000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Helloworld-Prefix-ggszqngmjneywjhcubovcvmsszdk/Helloworld-Prefix.pch.dia -c /Users/sang/Downloads/pbxproject-master/examples/aaaa/Helloworld/Helloworld-Prefix.pch -o /var/folders/nb/8x3xwk8101bftl1lj1ht25080000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Helloworld-Prefix-ggszqngmjneywjhcubovcvmsszdk/Helloworld-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/nb/8x3xwk8101bftl1lj1ht25080000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Helloworld-Prefix-ggszqngmjneywjhcubovcvmsszdk/Helloworld-Prefix.pch.d36"CE385F41-29D0-42C0-B317-2B1B77F1DCBA-
+
 CTouch /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app
 s381143957.394972
 e381143957.446417
@@ -264,4 +442,12 @@ r1
 xTouch
 x/Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Touch /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app083b6595cbb7b641^41487295cbb7b641^---0#0#0#--923"Touch build/Debug-iphonesimulator/Helloworld.app    cd /Users/dudan/work/git/rb.pbxproj/examples/aaaa    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/dudan/.rbenv/shims:/usr/local/lib/node_modules/coffee-script/bin:/usr/local/bin:/Users/dudan/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin:/usr/local/git/bin:/Users/dudan/Documents/ImageMagick6.8.0/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin:/usr/local/mongodb221/bin:/usr/local/mongodb221/:/Users/dudan/alfred/apache-ant-1.8.4/bin:/Developer/Platforms/iPhoneOS.platform/Developer/Library/PrivateFrameworks/DTDeviceKit.framework/Versions/A/Resources/:/usr/local/narwhal/bin:/Users/dudan/.rvm/bin"    /usr/bin/touch -c /Users/dudan/work/git/rb.pbxproj/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app36"103F1761-C548-4E88-B710-0066170DC3EA-
+
+CTouch /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app
+s381158791.561776
+e381158791.734650
+r1
+xTouch
+x/Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Touch /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.appbc03908705b8b641^4d15bc8705b8b641^---0#0#0#--614"Touch build/Debug-iphonesimulator/Helloworld.app    cd /Users/sang/Downloads/pbxproject-master/examples/aaaa    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sang/.rvm/gems/ruby-1.9.3-p327/bin:/Users/sang/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/sang/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/sang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/sang/Downloads/pbxproject-master/examples/aaaa/build/Debug-iphonesimulator/Helloworld.app36"623DF022-BF94-47A2-A046-23B367DC3EA7-
 

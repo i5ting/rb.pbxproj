@@ -1,3 +1,5 @@
+##!/usr/bin/env ruby -wKU Ilib
+
 # **pbxproject** is a Ruby library for managing XCode 4 project files.
 # 
 # pbxproject parses those .pbxproj -files and makes them Ruby objects
@@ -57,71 +59,71 @@ pbx.sections.each do |t, arr|
     
     #recursion_dump_instance_variables item
     p "---"*48
-    
+   end 
     
     # item.instance_variables.each{|x| 
     #       eval "p #{x}"
     #     }
     #  
-    if t =~ /^*PBXBuildFile$/
-      #:@isa, :@guid, :@comment, :@fileRef]
-     # p item.isa+"      "+item.guid+"      "+item.comment+"      "
-    end
-    
-    if t =~ /^*PBXFileReference$/
-      #p item.instance_variables
-      
-      #[:@isa, :@guid, :@comment, :@explicitFileType, :@includeInIndex, :@path, :@sourceTree]
-
-      #p item.isa+"      "+item.guid+"      "+item.comment+"      "+"      "+item.explicitFileType+"      "+"      "+item.path+"      "+"      "+item.sourceTree+"      "
-    end
-        # 
-        # PBXProject::PBXTypes::PBXBuildFile
-        # PBXProject::PBXTypes::PBXFileReference
-        # PBXProject::PBXTypes::PBXFrameworksBuildPhase
-        # PBXProject::PBXTypes::PBXGroup
-        # PBXProject::PBXTypes::PBXNativeTarget
-        # PBXProject::PBXTypes::PBXProject
-        # PBXProject::PBXTypes::PBXResourcesBuildPhase
-        # PBXProject::PBXTypes::PBXSourcesBuildPhase
-        # PBXProject::PBXTypes::PBXVariantGroup
-        # PBXProject::PBXTypes::XCBuildConfiguration
-        # PBXProject::PBXTypes::XCConfigurationList
-        #   
-    if t =~ /^*PBXFrameworksBuildPhase$/
-          #p item.instance_variables
-      
-          #[:@isa, :@guid, :@comment, :@buildActionMask, :@files, :@runOnlyForDeploymentPostprocessing]
-
-          #p item.guid+"      "+item.comment 
-          item.files.each do |f|
-            #p f
-          end
-          #p item.runOnlyForDeploymentPostprocessing
-    end
-    
-    
-    
-    
-    #p "\n"
-    if t =~ /^*PBXGroup$/
-          #p item.instance_variables
-      
-          #[:@isa, :@guid, :@comment, :@children, :@sourceTree]
-
-         # p item.isa
-          # p item.guid
-           
-          # p item.sourceTree
-    end
-    # p item.class
-    break
-    # p "#{item}-#{item.instance_variables}"
-    # p "#{item.comment}  #{item.guid}"
-    
-    
-  end
-  
+    # if t =~ /^*PBXBuildFile$/
+    #       #:@isa, :@guid, :@comment, :@fileRef]
+    #      # p item.isa+"      "+item.guid+"      "+item.comment+"      "
+    #     end
+    #     
+    #     if t =~ /^*PBXFileReference$/
+    #       #p item.instance_variables
+    #       
+    #       #[:@isa, :@guid, :@comment, :@explicitFileType, :@includeInIndex, :@path, :@sourceTree]
+    # 
+    #       #p item.isa+"      "+item.guid+"      "+item.comment+"      "+"      "+item.explicitFileType+"      "+"      "+item.path+"      "+"      "+item.sourceTree+"      "
+    #     end
+    #         # 
+    #         # PBXProject::PBXTypes::PBXBuildFile
+    #         # PBXProject::PBXTypes::PBXFileReference
+    #         # PBXProject::PBXTypes::PBXFrameworksBuildPhase
+    #         # PBXProject::PBXTypes::PBXGroup
+    #         # PBXProject::PBXTypes::PBXNativeTarget
+    #         # PBXProject::PBXTypes::PBXProject
+    #         # PBXProject::PBXTypes::PBXResourcesBuildPhase
+    #         # PBXProject::PBXTypes::PBXSourcesBuildPhase
+    #         # PBXProject::PBXTypes::PBXVariantGroup
+    #         # PBXProject::PBXTypes::XCBuildConfiguration
+    #         # PBXProject::PBXTypes::XCConfigurationList
+    #         #   
+    #     if t =~ /^*PBXFrameworksBuildPhase$/
+    #           #p item.instance_variables
+    #       
+    #           #[:@isa, :@guid, :@comment, :@buildActionMask, :@files, :@runOnlyForDeploymentPostprocessing]
+    # 
+    #           #p item.guid+"      "+item.comment 
+    #           item.files.each do |f|
+    #             #p f
+    #           end
+    #           #p item.runOnlyForDeploymentPostprocessing
+    #     end
+    #     
+    #     
+    #     
+    #     
+    #     #p "\n"
+    #     if t =~ /^*PBXGroup$/
+    #           #p item.instance_variables
+    #       
+    #           #[:@isa, :@guid, :@comment, :@children, :@sourceTree]
+    # 
+    #          # p item.isa
+    #           # p item.guid
+    #            
+    #           # p item.sourceTree
+    #     end
+    #     # p item.class
+    #     break
+    #     # p "#{item}-#{item.instance_variables}"
+    #     # p "#{item.comment}  #{item.guid}"
+    #     
+    #     
+    #   end
+    #   
   
   # p "*"*100
 end
